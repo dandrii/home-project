@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type="img/png" sizes="32x32" href="images/house-fav-32.png">
+    <link rel="icon" type="img/png" sizes="32x32" href="img/house-fav-32.png">
     <title>Dream House</title>
 </head>
 
 <body>
     <header>
-        <h1>Dream House</h1>
+        <h1 id="home">Dream House</h1>
         <img src="img/main.jpg" alt="Dream House">
         <ul>
             <li><a href="#home">Home</a></li>
@@ -30,22 +30,55 @@
     <article id="first">
         <img src="img/first.jpg" alt="First ingredient">
         <h2>First ingredient</h2>
-        
+        <ul>
+            <li>Think up your house yourself!</li>
+            <li>Visualize together your perfect day in your ideal home</li>
+            <li>Think about what energies you want to fill your home, and give them colours</li>
+            <li>From the energies and dreams go to specific examples</li>
+        </ul>
     </article>
     <article id="second">
         <img src="img/second.jpg" alt="Second ingredient">
         <h2>Second ingredient</h2>
-        
+        <ul>
+            <li>Space - the defining and most important component of the house, the foundation of the foundations</li>
+            <li>The most actual for all time is simplicity</li>
+            <li>Pleasant to your eye color scheme</li>
+        </ul>
     </article>
     <article id="third">
         <img src="img/third.jpg" alt="Third ingredient">
         <h2>Third ingredient</h2>
-        
+        <ul>
+            <li>Everything else is details: light, materials, furniture, textiles ... This is very important!</li>
+            <li>Think light scenarios for your home</li>
+            <li>When choosing materials, your basic criterion is simplicity, functionality and naturalness</li>
+        </ul>
     </article>
     <article id="contact">
         <h2>Contact Us</h2>
-        
+        <form method="POST" action="https://formspree.io/doronin.andrii.lv@gmail.com">
+            <label>
+                <input type="text" name="Name" placeholder="Your name..." required>
+            </label>
+            <label>
+                <input type="email" name="E-mail" placeholder="Your e-mail..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+            </label>
+            <label>
+                 <textarea name="Message" rows="4" cols="60" placeholder="Type your message..." required></textarea>
+            </label>
+            <input type="submit" value="SEND" />
+        </form>
     </article>
+    <article>
+        Creating a house of your dreams is a long and fascinating process, in which you just need to fall in love and get pleasure from it.
+    </article>
+    <footer>
+        @2017 Copyright Dream House
+        <img src="img/fb.jpg" alt="Facebook">
+        <img src="img/twit.jpg" alt="Twitter">
+        <img src="img/ytb.jpg" alt="Youtube">
+    </footer>
 </body>
 
 </html>

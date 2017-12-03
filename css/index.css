@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Convergence');
 html {
     font-family:'Convergence';
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+footer {
+    font-size: 14px;
 }

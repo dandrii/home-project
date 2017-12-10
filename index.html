@@ -11,28 +11,27 @@
 
 <body>
     <header>
-        <img src="img/main.jpg" alt="Dream House">
         <h1 id="home">Dream House</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#first">First ingredient</a></li>
-                    <li><a href="#second">Second ingredient</a></li>
-                    <li><a href="#third">Third ingredient</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
     </header>
-    <div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#first">First ingredient</a></li>
+            <li><a href="#second">Second ingredient</a></li>
+            <li><a href="#third">Third ingredient</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div id="about">
         What is a dream house and what difference from a house with a "good repair"?
-        <p> The dream house reflects the essence of its owners, is their continuation, supports them, gives them energy. It has a soul and a heart. 
-        <p>He is alive!
-        <p> My recipe for creating your dream home: first we create a foundation, take our desires, inspiration and energy, add breath to space, mix with your unique style, a pleasant color scheme and decorate with useful and comfortable details. That's
-        it ... The dream house is ready!
+        <p> The dream house reflects the essence of its owners, is their continuation, supports them, gives them energy. It has a soul and a heart.
+            <p>He is alive!
+                <p> My recipe for creating your dream home: first we create a foundation, take our desires, inspiration and energy, add breath to space, mix with your unique style, a pleasant color scheme and decorate with useful and comfortable details.
+                    That's it ... The dream house is ready!
     </div>
-    <article id="first">
-        <br><img src="img/first.jpg" alt="First ingredient">
-        <h2>First ingredient</h2>
+    <img src="img/first.jpg" alt="First ingredient" class="imgFloat">
+    <article class="ingredients">
+        <h2 id="first">First ingredient</h2>
         <ul>
             <li>Think up your house yourself!</li>
             <li>Visualize together your perfect day in your ideal home</li>
@@ -40,18 +39,18 @@
             <li>From the energies and dreams go to specific examples</li>
         </ul>
     </article>
-    <article id="second">
-        <img src="img/second.jpg" alt="Second ingredient">
-        <h2>Second ingredient</h2>
+    <img src="img/second.jpg" alt="Second ingredient" class="imgFloat">
+    <article class="ingredients">
+        <h2 id="second">Second ingredient</h2>
         <ul>
             <li>Space - the defining and most important component of the house, the foundation of the foundations</li>
             <li>The most actual for all time is simplicity</li>
             <li>Pleasant to your eye color scheme</li>
         </ul>
     </article>
-    <article id="third">
-        <img src="img/third.jpg" alt="Third ingredient">
-        <h2>Third ingredient</h2>
+    <img src="img/third.jpg" alt="Third ingredient" class="imgFloat">
+    <article class="ingredients">
+        <h2 id="third">Third ingredient</h2>
         <ul>
             <li>Everything else is details: light, materials, furniture, textiles ... This is very important!</li>
             <li>Think light scenarios for your home</li>
@@ -67,21 +66,18 @@
             <label>
                 <input type="text" name="Name" placeholder="Your name" required>
             </label>
-            <br>
             <label>
                 <input type="email" name="E-mail" placeholder="Your e-mail" required>
             </label>
-            <br><br>
             <label>
                  <textarea name="Message" rows="4" cols="60" placeholder="Type your message..." required></textarea>
             </label>
-            <br>
             <input type="submit" value="SEND">
         </form>
     </article>
     <br>
     <footer>
-        @2017 Copyright Dream House
+        <div id="copyright">@2017 Copyright Dream House</div>
         <a href="http://facebook.com" target="_blank"><img src="img/fb.jpg" alt="Facebook" rel="noopener" width="46" height="46"></a>
         <a href="http://twitter.com" target="_blank"><img src="img/twit.jpg" alt="Twitter" rel="noopener" width="46" height="46"></a>
         <a href="http://youtube.com" target="_blank"><img src="img/ytb.jpg" alt="Youtube" rel="noopener" width="46" height="46"></a>

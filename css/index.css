@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Convergence');
 html {
-    font-family:"Convergence","Monospace";
+    font-family: "Convergence", "Monospace";
     font-size: 20px;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
 }
 
 h1 {
@@ -10,9 +15,78 @@ h1 {
 
 h2 {
     font-size: 1.2rem;
+    text-align: center;
 }
 
 footer {
     font-size: 0.7rem;
-    border: 1px solid grey;
+    border: 1px solid black;
+    background-color: #c1b623;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+footer>a {
+    padding-left: 3px;
+}
+
+header {
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.imgFloat {
+    float: left;
+    margin-top: 90px;
+}
+
+li>a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+li>a:visited {
+    color: black;
+}
+
+li>a:hover {
+    background-color: #c1b623;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font: black;
+    flex-wrap: wrap;
+}
+
+nav {
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+#copyright {
+    margin-right: auto;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
 }

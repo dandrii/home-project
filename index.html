@@ -62,26 +62,29 @@
     </p>
     <article id="contact">
         <h2>Contact Us</h2>
-        <form method="POST" action="https://formspree.io/doronin.andrii.lv@gmail.com">
+        <form id="contact-form">
             <label>
-                <input type="text" name="Name" placeholder="Your name" required>
+                <input id ="name" type="text" placeholder="Your name" required>
             </label>
             <label>
-                <input type="email" name="E-mail" placeholder="Your e-mail" required>
+                <input id="email" type="email" placeholder="Your e-mail" required>
             </label>
             <label>
-                 <textarea name="Message" rows="4" cols="60" placeholder="Type your message..." required></textarea>
+                 <textarea id="message" rows="4" cols="60" placeholder="Type your message..."></textarea>
             </label>
             <input type="submit" value="SEND">
         </form>
+        <div id="invisible-thank-div" >Thank you for contacting us!</div>
+        <div id="invisible-error-div">Sorry, an error has occured!</div>
     </article>
-    <br>
     <footer>
         <div id="copyright">@2017 Copyright Dream House</div>
         <a href="http://facebook.com" target="_blank"><img src="img/fb.jpg" alt="Facebook" rel="noopener" width="46" height="46"></a>
         <a href="http://twitter.com" target="_blank"><img src="img/twit.jpg" alt="Twitter" rel="noopener" width="46" height="46"></a>
         <a href="http://youtube.com" target="_blank"><img src="img/ytb.jpg" alt="Youtube" rel="noopener" width="46" height="46"></a>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/contact-us.js"></script>
 </body>
 
 </html>

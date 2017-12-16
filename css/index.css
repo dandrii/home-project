@@ -58,6 +58,7 @@ li>a {
     border: 2px solid black;
     border-radius: 15px;
     padding: 4px;
+    color: black;
 }
 
 li>a:visited {
@@ -89,4 +90,32 @@ form label {
     display: flex;
     flex-direction: column;
     padding: 3px;
+}
+
+#invisible-thank-div {
+    display: none;
+}
+
+#invisible-error-div {
+    display: none;
+}
+
+#visible-thank-div {
+    display: inline;
+    display: flex;
+    justify-content: center;
+    font: bold;
+    border: 1px solid black;
+}
+
+#visible-error-div {
+    display: inline;
+    display: flex;
+    justify-content: center;
+    font: bold;
+    border: 1px solid black;
+}
+
+.invisible-form {
+    display: none;
 }

@@ -4,34 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" type="img/png" sizes="32x32" href="img/house-fav-32.png">
     <title>Dream House</title>
 </head>
 
-<body>
+<body class="main-theme">
     <header>
-        <h1 id="home">Dream House</h1>
+        <h1 class="h1-theme">Dream House</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#first">First ingredient</a></li>
-            <li><a href="#second">Second ingredient</a></li>
-            <li><a href="#third">Third ingredient</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#first">First ingredient</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#second">Second ingredient</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#third">Third ingredient</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div id="about">
-        What is a dream house and what difference from a house with a "good repair"?
-        <p> The dream house reflects the essence of its owners, is their continuation, supports them, gives them energy. It has a soul and a heart.
-            <p>He is alive!
-                <p> My recipe for creating your dream home: first we create a foundation, take our desires, inspiration and energy, add breath to space, mix with your unique style, a pleasant color scheme and decorate with useful and comfortable details.
-                    That's it ... The dream house is ready!
+        <p>What is a dream house and what difference from a house with a "good repair"?</p>
+        <p>The dream house reflects the essence of its owners, is their continuation, supports them, gives them energy. It has a soul and a heart.</p>
+        <p>He is alive!</p>
+        <p>My recipe for creating your dream home: first we create a foundation, take our desires, inspiration and energy, add breath to space, mix with your unique style, a pleasant color scheme and decorate with useful and comfortable details. That's it
+            ... The dream house is ready!</p>
     </div>
     <img src="img/first.jpg" alt="First ingredient" class="imgFloat">
     <article class="ingredients">
-        <h2 id="first">First ingredient</h2>
+        <h2 class="h2-theme" id="first">First ingredient</h2>
         <ul>
             <li>Think up your house yourself!</li>
             <li>Visualize together your perfect day in your ideal home</li>
@@ -41,7 +57,7 @@
     </article>
     <img src="img/second.jpg" alt="Second ingredient" class="imgFloat">
     <article class="ingredients">
-        <h2 id="second">Second ingredient</h2>
+        <h2 class="h2-theme" id="second">Second ingredient</h2>
         <ul>
             <li>Space - the defining and most important component of the house, the foundation of the foundations</li>
             <li>The most actual for all time is simplicity</li>
@@ -50,18 +66,18 @@
     </article>
     <img src="img/third.jpg" alt="Third ingredient" class="imgFloat">
     <article class="ingredients">
-        <h2 id="third">Third ingredient</h2>
+        <h2 class="h2-theme" id="third">Third ingredient</h2>
         <ul>
             <li>Everything else is details: light, materials, furniture, textiles ... This is very important!</li>
             <li>Think light scenarios for your home</li>
             <li>When choosing materials, your basic criterion is simplicity, functionality and naturalness</li>
         </ul>
     </article>
-    <p>
-        <br>Creating a house of your dreams is a long and fascinating process, in which you just need to fall in love and get pleasure from it.
+    <p id="epilogue">
+        Creating a house of your dreams is a long and fascinating process, in which you just need to fall in love and get pleasure from it.
     </p>
     <article id="contact">
-        <h2>Contact Us</h2>
+        <h2 class="h2-theme">Contact Us</h2>
         <form id="contact-form">
             <label>
                 <input id ="name" type="text" placeholder="Your name" required>
@@ -70,19 +86,21 @@
                 <input id="email" type="email" placeholder="Your e-mail" required>
             </label>
             <label>
-                 <textarea id="message" rows="4" cols="60" placeholder="Type your message..."></textarea>
+                 <textarea id="message" rows="4" cols="30" placeholder="Type your message..."></textarea>
             </label>
-            <input type="submit" value="SEND">
+            <input id="button" type="submit" value="SEND">
         </form>
-        <div id="invisible-thank-div" >Thank you for contacting us!</div>
+        <div id="invisible-thank-div">Thank you for contacting us!</div>
         <div id="invisible-error-div">Sorry, an error has occured!</div>
     </article>
-    <footer>
+    <footer class="footer-theme">
         <div id="copyright">@2017 Copyright Dream House</div>
         <a href="http://facebook.com" target="_blank"><img src="img/fb.jpg" alt="Facebook" rel="noopener" width="46" height="46"></a>
         <a href="http://twitter.com" target="_blank"><img src="img/twit.jpg" alt="Twitter" rel="noopener" width="46" height="46"></a>
         <a href="http://youtube.com" target="_blank"><img src="img/ytb.jpg" alt="Youtube" rel="noopener" width="46" height="46"></a>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="js/contact-us.js"></script>
 </body>

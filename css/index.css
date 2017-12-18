@@ -8,9 +8,9 @@
 }
 
 .h1-theme {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     text-align: left;
-    padding-left: 3%;
+    padding-left: 4%;
     padding-top: 5%;
     padding-bottom: 30%;
 }
@@ -33,11 +33,15 @@
     color: rgba(255, 255, 255, .5);
 }
 
+div {
+    margin: 5px;
+}
+
 footer>a {
     padding-left: 3px;
 }
 
-header {
+#background-theme {
     background-image: url("../img/main.jpg");
     background-size: 100%;
 }
@@ -84,21 +88,23 @@ header {
 }
 
 #epilogue {
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
-
-p {
     margin: 5px;
+    margin-top: 30px;
 }
 
 #contact label {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 5px;
 }
 
-#contact-form {
+#gallery {
+    display: flex;
+    justify-content:center;
+}
+
+#button {
     margin: 5px;
 }
 
@@ -110,5 +116,22 @@ p {
     }
     .h2-theme {
         margin-top: 20px;
+    }
+    .h1-theme {
+        font-size: 1.6rem;
+        text-align: left;
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 30%;
+    }
+}
+
+@media (max-width: 400px) {
+    .h1-theme {
+        font-size: 1.2rem;
+        text-align: left;
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 30%;
     }
 }
